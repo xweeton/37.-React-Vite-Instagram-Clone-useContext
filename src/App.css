@@ -1,0 +1,19 @@
+.tabContainer {
+  justify-content: center;
+  border-top: 1px solid lightgray;
+}
+
+.nav.Item {
+  cursor: pointer;
+}
+
+.navLink {
+  border-top: 2px solid transparent !important;
+  transition: border-color 0.3s ease !important;
+  color: darkgrey !important;
+}
+
+.navLink:hover {
+  border-color: black !important;
+  color: black !important;
+}
